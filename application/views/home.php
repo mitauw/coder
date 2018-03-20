@@ -238,12 +238,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <li form contact -->
 <centernk rel="stylesheet" href="asset/styles/form3.css" type="text/css">
 <div id="section">
-    <?php echo form_open('insert_ctrl'); ?>
         <section class="contact-wrap">
-          <?php if (isset($message)) { ?>
-          <CENTER><h3 style="color:green;">Data inserted successfully</h3></CENTER><br>
-          <?php } ?>
-
           <form action="Contact.php" class="contact-form" method="post">
           <div class="col-sm-6">
             <div class="input-block">
